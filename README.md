@@ -6,13 +6,13 @@ This Python script analyzes Apache-style access logs and generates a CSV report 
 - Top 5 requested endpoints
 - All response status codes and their counts
 
-## 📁 Files
+##  Files
 
 - `access_log`: Sample log file (or use `/var/log/httpd/access_log`)
 - `analyzer.py`: Python log parser and CSV report generator
 - `report.csv`: Output report generated
 - `.gitignore`: Ignores temporary files
 
-## ▶️ Usage
+## ▶ Usage
 
 python3 analyzer.py
